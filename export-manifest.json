@@ -1,0 +1,171 @@
+{
+  "excluded_path_count": 0,
+  "excluded_release_outputs": [],
+  "excluded_symlinks": [],
+  "exporter_blob": "bc16a3f02957af1342e19dfe7fad78e003d8c5dc",
+  "files": [
+    {
+      "bytes": 108,
+      "mode": "100644",
+      "path": ".gitignore",
+      "role": "export-support",
+      "sha256": "8aec252fe1e8e2a04924eeac30581deea8368b151c9e82d6601a1d6393be8b27",
+      "source_blob": null
+    },
+    {
+      "bytes": 1476,
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "655264a4024f61964072e174f61d7a7d840a25024c630253e9d06c7a960ad0cb",
+      "source_blob": "af488c3365709d5d2be9ce4a93f89d07effc9721"
+    },
+    {
+      "bytes": 470,
+      "mode": "100644",
+      "path": "LICENSE",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "55bd30dbbfb4a62d77bfd74a183e68ac3fa392c12802e0b56ad02613b9248d7c",
+      "source_blob": "48fe1688b86d4e1feef1d929170e74cc8adff356"
+    },
+    {
+      "bytes": 733,
+      "mode": "100644",
+      "path": "Makefile",
+      "rewrites": [
+        {
+          "expected_count": 1,
+          "new": ".PHONY: all check manuscript warnings clean distclean",
+          "old": ".PHONY: all check lint manuscript warnings clean distclean",
+          "reason": "the monorepo-wide TeX lint helper is outside the standalone repository boundary"
+        },
+        {
+          "expected_count": 1,
+          "new": "all: manuscript\n\ncheck: manuscript warnings",
+          "old": "all: lint manuscript\n\ncheck: lint manuscript warnings",
+          "reason": "the monorepo-wide TeX lint helper is outside the standalone repository boundary"
+        },
+        {
+          "expected_count": 1,
+          "new": "",
+          "old": "lint:\n\t$(PYTHON) ../scripts/lint_tex_spacing.py $(SOURCE) sections/*.tex\n\n",
+          "reason": "the monorepo-wide TeX lint helper is outside the standalone repository boundary"
+        },
+        {
+          "expected_count": 1,
+          "new": "manuscript: $(SOURCE) sections/*.tex\n",
+          "old": "manuscript: $(SOURCE) sections/*.tex\n\t$(PYTHON) ../scripts/lint_tex_spacing.py $(SOURCE) sections/*.tex\n",
+          "reason": "the monorepo-wide TeX lint helper is outside the standalone repository boundary"
+        }
+      ],
+      "role": "support",
+      "sha256": "a2214c4c3919b4a9744d8af04d3e673d544afc6ed14fe6cdde08ab91a77eff85",
+      "source_blob": "639d8992997b79367a8e0bd6ceea90a12db2aeda"
+    },
+    {
+      "bytes": 305,
+      "mode": "100644",
+      "path": "PROVENANCE.md",
+      "role": "provenance",
+      "sha256": "cff3013dee04eea280de9483b390af25cdc5ed063fefd512bb248cbf8a2c9b1a",
+      "source_blob": null
+    },
+    {
+      "bytes": 654,
+      "mode": "100644",
+      "path": "README.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "dc474d84d1e6260c88763f30f5b961fedd7d616c6ea6b3e04ae36cac1ed5fbf7",
+      "source_blob": "b324fc63f850a53ccc574cfc4c673ed4798b1c0c"
+    },
+    {
+      "bytes": 567,
+      "mode": "100644",
+      "path": "flake.lock",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "9ae203c10f2e27ff1a11363a02ac43747d9766f8f17c975b5d825ed480d120cc",
+      "source_blob": "c06115a1e8e270fb2772ce0ef216d75ab95e492f"
+    },
+    {
+      "bytes": 658,
+      "mode": "100644",
+      "path": "flake.nix",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "8275a9b43e585351ba0b43fc226bfefe0e9b5dda63fc1e18e4d98fc82a9ce48f",
+      "source_blob": "fd85b05ea3f6f547e8577bb22306049ec2a6370f"
+    },
+    {
+      "bytes": 77500,
+      "mode": "100644",
+      "path": "hodge_atom_marker_ledger.pdf",
+      "rewrites": [],
+      "role": "release-output",
+      "sha256": "507f9b5c0d466ba231c7302c9dce523d9bb0e15db2d04d4e2c87162623983459",
+      "source_blob": "5dd10c9fa758da017c14122fadf98b8a316b51f9"
+    },
+    {
+      "bytes": 3747,
+      "mode": "100644",
+      "path": "hodge_atom_marker_ledger.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "fac555c02a25da3c9206aee988f4cd8fe26a985e7d5c4560d728ee6055a73e4c",
+      "source_blob": "036d5c2d99d514bc19a685f513a9370ac5b25f93"
+    },
+    {
+      "bytes": 2791,
+      "mode": "100644",
+      "path": "sections/01-overview.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "2078b953543bd258348d18483dc979c176153baa6ba0f65676fd7ca9b7452dac",
+      "source_blob": "0645edd7a3f16d801325a6c11de14e2a9574ac61"
+    },
+    {
+      "bytes": 6014,
+      "mode": "100644",
+      "path": "sections/02-ledger.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "a0abe2da867de8f076d4ff8750182ad8ff80a57d6b20bb78aee6d911fbde5e60",
+      "source_blob": "7bcb4b0b7ed24614a1817b2a9d5c51d76374e93f"
+    },
+    {
+      "bytes": 4557,
+      "mode": "100644",
+      "path": "sections/03-hodge.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "67d1bfeb28310e65f64ab52b51446d240bbfb5fb4658a01e6fadf4625eb12443",
+      "source_blob": "0c6d188c5b0d5d2b61255aa2a3f371f07566f6ce"
+    },
+    {
+      "bytes": 3206,
+      "mode": "100644",
+      "path": "sections/04-one-step.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "15a3958374b11406b8aa1d793cc7dc5fdd5ae5bdf97f037ec3d315a191892245",
+      "source_blob": "9f57fa2a8f77a2cb3ac5e7ba895e22cd49538a04"
+    }
+  ],
+  "github": "tavisrudd/hodge-atom-marker-ledger",
+  "main_sources": [
+    "hodge_atom_marker_ledger.tex"
+  ],
+  "manifest_self_excluded": true,
+  "paper_ids": [
+    "hodge_atom_marker_ledger"
+  ],
+  "paper_registry_sha256": "99b03e818ee2e3bdf150b7aebdf6c8351e94b8d3b398c73ef7cb71ec8f88c205",
+  "release_output_policy": "immutable-source",
+  "repository": "hodge-atom-marker-ledger",
+  "repository_map_sha256": "4b620d25c9a30088997017a1a9c45700d1345f72f2e618478655fce42b39632a",
+  "schema_version": 1,
+  "source_commit": "d9e3054a72f4c32574567c30be60a833dd5cf91f"
+}
