@@ -69,7 +69,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "f2dd672c9936723b1c8bf6a6fc3e1834bf80a8797e59ece44b8f94bd1023d676",
+      "sha256": "2891881b517642c5e5d927d22244e18df910461a3bdf95fb754282031cd95672",
       "source_blob": null
     },
     {
@@ -78,8 +78,8 @@
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "4fdaebd04d2c5ab51bd5f1c1d9cbd3b711abb3d3e6e1bdef6e7494f99e91bca3",
-      "source_blob": "8a94cc0f1aa552fc6fe8b3f38089e013b747bb6d"
+      "sha256": "af23017dd2c24e70be6f6ab0d9998ebfd6fa6f5c9c9cbd607682d466dee2428a",
+      "source_blob": "5355219f174bf2f6f6f0a2a22ee867a810a3f70f"
     },
     {
       "bytes": 567,
@@ -162,10 +162,10 @@
   "paper_ids": [
     "hodge_atom_marker_ledger"
   ],
-  "paper_registry_sha256": "99b03e818ee2e3bdf150b7aebdf6c8351e94b8d3b398c73ef7cb71ec8f88c205",
+  "paper_registry_sha256": "98e59703c9318cd0e89d51dac9c0208ff5bce00f6f755da6f4ddcc9b9fd582d1",
   "release_output_policy": "immutable-source",
   "repository": "hodge-atom-marker-ledger",
-  "repository_map_sha256": "4b620d25c9a30088997017a1a9c45700d1345f72f2e618478655fce42b39632a",
+  "repository_map_sha256": "3e4d1fdaa2b00ebcf7153632b1c0eda21bbccd42027625a3475f23868ab87e86",
   "schema_version": 1,
-  "source_commit": "5b7c2d912e080eb0921fe6479d7926b4229d3e22"
+  "source_commit": "92f9edc523bfebb8f965e6bf478739a70b0c58c7"
 }
