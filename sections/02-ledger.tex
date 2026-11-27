@@ -2,7 +2,7 @@
 \label{sec:ledger}
 
 Fix a universe of smooth projective varieties over a characteristic-zero
-field and choose a skeleton.  This harmless choice only avoids set-theoretic
+field $k$ and choose a skeleton.  This harmless choice only avoids set-theoretic
 duplication; isomorphisms remain among the generating correspondences.
 
 \begin{definition}[Occurrence provider]
@@ -13,8 +13,11 @@ $A_X$ and a function $m_X:A_X\to\N_{>0}$.  Its expanded occurrence set is
  \Occ(X):=\{(a,j):a\in A_X,\ 1\le j\le m_X(a)\}.
  \tag{2.1}
 \]
-The provider includes bijections, compatible with isomorphisms, of the
-following forms:
+To every isomorphism $\varphi:X\xrightarrow{\sim}Y$ it assigns a
+multiplicity-preserving bijection $A_\varphi:A_X\to A_Y$, compatible with
+composition; this induces a bijection $\Occ(X)\simeq\Occ(Y)$ up to the
+relabelling described below.  The provider also includes bijections,
+compatible with these isomorphism bijections, of the following forms:
 \begin{align}
  \Occ(X\sqcup Y)&\simeq \Occ(X)\sqcup\Occ(Y),
                                                         \tag{2.2}\label{eq:disjoint}\\
@@ -25,7 +28,7 @@ following forms:
    \Occ(X)\times\{0,\ldots,r-1\},
                                                         \tag{2.4}\label{eq:projective}
 \end{align}
-where $Z\subset X$ is smooth of codimension $c\ge2$ and $E$ has rank
+where $Z\subset X$ is smooth of pure codimension $c\ge2$ and $E$ has rank
 $r\ge2$.
 The labels $j$ have no structure: a provider bijection is used only up to
 permuting the occurrences above a fixed element of $A_X$.
@@ -61,7 +64,9 @@ The blowup correspondence gives the commutative square
 \end{CD}
 \tag{2.7}\label{diag:occurrence-descent}
 \end{equation}
-It records descent on objects.  It does not assert an isomorphism between
+Here $q^{\sqcup}$ is $q$ on $\Occ(X)$ and $(z,i)\mapsto q(z)$ on
+$\Occ(Z)\times\{1,\ldots,c-1\}$.  The square records descent on objects.  It
+does not assert an isomorphism between
 unrelated representatives of a common class.
 
 \begin{theorem}[Universal marker ledger]
@@ -123,8 +128,8 @@ Let $d\ge2$.  The assignment
  X\longmapsto \rho_{d-2}(\mathcal B(X))
  \tag{2.12}\label{eq:birational-ledger}
 \]
-is a birational invariant of smooth projective $d$-folds.  In particular,
-if \(\rho_{d-2}(\mathcal B(X))\ne0\), then $X$ is irrational.
+is a birational invariant of irreducible smooth projective $d$-folds.
+In particular, $X$ is irrational whenever \(\rho_{d-2}(\mathcal B(X))\ne0\).
 \end{theorem}
 
 \begin{proof}

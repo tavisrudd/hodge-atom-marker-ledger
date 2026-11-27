@@ -1,8 +1,8 @@
 {
+  "content_sha256": "b498bb6b3d4e08b1c5d5d9d07e3559f4f59636f03754bc6829051fcb69a240dd",
   "excluded_path_count": 0,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
-  "exporter_blob": "bc16a3f02957af1342e19dfe7fad78e003d8c5dc",
   "files": [
     {
       "bytes": 108,
@@ -65,11 +65,11 @@
       "source_blob": "639d8992997b79367a8e0bd6ceea90a12db2aeda"
     },
     {
-      "bytes": 305,
+      "bytes": 510,
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "2891881b517642c5e5d927d22244e18df910461a3bdf95fb754282031cd95672",
+      "sha256": "675d12a300b7ee55b22d870defda2de989ea3795dee07ea2294de0bcdd82dfc6",
       "source_blob": null
     },
     {
@@ -100,22 +100,22 @@
       "source_blob": "fd85b05ea3f6f547e8577bb22306049ec2a6370f"
     },
     {
-      "bytes": 77500,
+      "bytes": 79269,
       "mode": "100644",
       "path": "hodge_atom_marker_ledger.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "507f9b5c0d466ba231c7302c9dce523d9bb0e15db2d04d4e2c87162623983459",
-      "source_blob": "5dd10c9fa758da017c14122fadf98b8a316b51f9"
+      "sha256": "0fd8eb2072fd002ce2aaa092d9b6d468f48d4c892eb165e7f40e583744a3d44b",
+      "source_blob": "ff00396b71ed6922ec335877e89a5aa468aeec58"
     },
     {
-      "bytes": 3747,
+      "bytes": 3749,
       "mode": "100644",
       "path": "hodge_atom_marker_ledger.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "fac555c02a25da3c9206aee988f4cd8fe26a985e7d5c4560d728ee6055a73e4c",
-      "source_blob": "036d5c2d99d514bc19a685f513a9370ac5b25f93"
+      "sha256": "939a855d538c00d958c2becccc1eaef2e42c7a25abb6f8704f13e04cdc370aa2",
+      "source_blob": "b0207fc4a51097ee2a427fd6381a36bd1b2e3066"
     },
     {
       "bytes": 2791,
@@ -127,31 +127,31 @@
       "source_blob": "0645edd7a3f16d801325a6c11de14e2a9574ac61"
     },
     {
-      "bytes": 6014,
+      "bytes": 6402,
       "mode": "100644",
       "path": "sections/02-ledger.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "a0abe2da867de8f076d4ff8750182ad8ff80a57d6b20bb78aee6d911fbde5e60",
-      "source_blob": "7bcb4b0b7ed24614a1817b2a9d5c51d76374e93f"
+      "sha256": "56e6232487b8e99165fc47e5621da6e6a1f0d24e402f500189a1bbc528419576",
+      "source_blob": "0693e58dda8ff71813e094846f5970ed0c38f2ee"
     },
     {
-      "bytes": 4557,
+      "bytes": 4653,
       "mode": "100644",
       "path": "sections/03-hodge.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "67d1bfeb28310e65f64ab52b51446d240bbfb5fb4658a01e6fadf4625eb12443",
-      "source_blob": "0c6d188c5b0d5d2b61255aa2a3f371f07566f6ce"
+      "sha256": "259b2f01a7114110958c051ceab20262fcc06972d333eaa57963ff774afd006c",
+      "source_blob": "3d0deb0157fa0d11c3d4b03050814070fa6f6f0f"
     },
     {
-      "bytes": 3206,
+      "bytes": 3274,
       "mode": "100644",
       "path": "sections/04-one-step.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "15a3958374b11406b8aa1d793cc7dc5fdd5ae5bdf97f037ec3d315a191892245",
-      "source_blob": "9f57fa2a8f77a2cb3ac5e7ba895e22cd49538a04"
+      "sha256": "3e5ba5f944af2777bee1fcb1b9a6c7dab6375aacb35a8d8e561abf144b50d263",
+      "source_blob": "602ea75d2fc7abf52875465fa3cdb4c35b6e78f6"
     }
   ],
   "github": "tavisrudd/hodge-atom-marker-ledger",
@@ -159,13 +159,6 @@
     "hodge_atom_marker_ledger.tex"
   ],
   "manifest_self_excluded": true,
-  "paper_ids": [
-    "hodge_atom_marker_ledger"
-  ],
-  "paper_registry_sha256": "98e59703c9318cd0e89d51dac9c0208ff5bce00f6f755da6f4ddcc9b9fd582d1",
-  "release_output_policy": "immutable-source",
   "repository": "hodge-atom-marker-ledger",
-  "repository_map_sha256": "3e4d1fdaa2b00ebcf7153632b1c0eda21bbccd42027625a3475f23868ab87e86",
-  "schema_version": 1,
-  "source_commit": "92f9edc523bfebb8f965e6bf478739a70b0c58c7"
+  "schema_version": 1
 }
